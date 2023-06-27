@@ -24,7 +24,7 @@ Run `Visual Studio 2022` for a dev server. Navigate to `https://localhost:7077/s
 
 ## Build
 
-Run `VS (Visual Studio) 2022 build` to build the project or press [F6]. To create a database, open the `nudge packet` console and run the `update-databese` command. The build artifacts will be stored in the `ToDoApp/` directory.
+Run `VS (Visual Studio) 2022 build` to build the project or press `F6`. To create a database, open the `nudge packet` console and run the `update-databese` command. The build artifacts will be stored in the `ToDoApp/` directory.
 
 ## Running unit tests
 
