@@ -52,21 +52,21 @@ namespace WebApi.Migrations
                             Id = 1,
                             CategoryId = 1,
                             DateTime = new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1967),
-                            Text = "1 nolu categorinin 1. yapılacak işi"
+                            Text = "1 nolu kategorinin 1. yapılacak işi"
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 2,
                             DateTime = new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1969),
-                            Text = "2 nolu categorinin 1. yapılacak işi"
+                            Text = "2 nolu kategorinin 1. yapılacak işi"
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 1,
                             DateTime = new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1971),
-                            Text = "1 nolu categorinin 2. yapılacak işi"
+                            Text = "1 nolu kategorinin 2. yapılacak işi"
                         });
                 });
 
@@ -90,17 +90,17 @@ namespace WebApi.Migrations
                         new
                         {
                             CategoryId = 1,
-                            CategoryName = "Yapılacakların 1. Categorisi"
+                            CategoryName = "Yapılacakların 1. Kategorisi"
                         },
                         new
                         {
                             CategoryId = 2,
-                            CategoryName = "Yapılacakların 2. Categorisi"
+                            CategoryName = "Yapılacakların 2. Kategorisi"
                         },
                         new
                         {
                             CategoryId = 3,
-                            CategoryName = "Yapılacakların 3. Categorisi"
+                            CategoryName = "Yapılacakların 3. Kategorisi"
                         });
                 });
 

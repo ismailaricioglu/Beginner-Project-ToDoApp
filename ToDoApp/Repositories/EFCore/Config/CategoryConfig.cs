@@ -20,17 +20,17 @@ namespace Repositories.EFCore.Config
                 new Category()
                 {
                     CategoryId = 1,
-                    CategoryName = "Yapılacakların 1. Categorisi"
+                    CategoryName = "Yapılacakların 1. Kategorisi"
                 },
                 new Category()
                 {
                     CategoryId = 2,
-                    CategoryName = "Yapılacakların 2. Categorisi"
+                    CategoryName = "Yapılacakların 2. Kategorisi"
                 },
                 new Category()
                 {
                     CategoryId = 3,
-                    CategoryName = "Yapılacakların 3. Categorisi"
+                    CategoryName = "Yapılacakların 3. Kategorisi"
                 }
             );
         }

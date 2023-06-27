@@ -72,10 +72,10 @@ namespace WebApi.Extensions
                 if (systemTextJsonOutputFormatter is not null)
                 {
                     systemTextJsonOutputFormatter.SupportedMediaTypes
-                    .Add("application/vnd.btkakademi.hateoas+json");
+                    .Add("application/vnd.todo.hateoas+json");
 
                     systemTextJsonOutputFormatter.SupportedMediaTypes
-                    .Add("application/vnd.btkakademi.apiroot+json");
+                    .Add("application/vnd.todo.apiroot+json");
                 }
 
                 var xmlOutputFormatter = config
@@ -85,10 +85,10 @@ namespace WebApi.Extensions
                 if (xmlOutputFormatter is not null)
                 {
                     xmlOutputFormatter.SupportedMediaTypes
-                    .Add("application/vnd.btkakademi.hateoas+xml");
+                    .Add("application/vnd.todo.hateoas+xml");
 
                     xmlOutputFormatter.SupportedMediaTypes
-                    .Add("application/vnd.btkakademi.apiroot+xml");
+                    .Add("application/vnd.todo.apiroot+xml");
                 }
             });
         }
@@ -203,7 +203,7 @@ namespace WebApi.Extensions
                             Url = new Uri("https://www.linkedin.com/in/ismailaricioglu/")
                         }
                     });
-                s.SwaggerDoc("v2", new OpenApiInfo { Title = "Yapım aşamasında olabilir...", Version = "v2" });
+                s.SwaggerDoc("v2", new OpenApiInfo { Title = "Yapım aşamasında...", Version = "v2" });
 
                 s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {

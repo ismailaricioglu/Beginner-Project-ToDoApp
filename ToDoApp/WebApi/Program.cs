@@ -66,8 +66,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(s =>
     {
-        s.SwaggerEndpoint("/swagger/v1/swagger.json", "BTK Akademi v1");
-        s.SwaggerEndpoint("/swagger/v2/swagger.json", "BTK Akademi v2");
+        s.SwaggerEndpoint("/swagger/v1/swagger.json", "Beginner ToDo v1");
+        s.SwaggerEndpoint("/swagger/v2/swagger.json", "ToDo v2");
     });
 }
 
