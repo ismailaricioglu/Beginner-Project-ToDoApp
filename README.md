@@ -32,7 +32,7 @@ Run `Visual Studio ToDo WebApi` to execute the unit tests via [Postman](https://
 
 ## Running end-to-end tests
 
-Run `Visual Studio ToDo WebApi` to execute the end-to-end tests via [Protractor](https://documenter.getpostman.com/view/27682287/2s93shzpGE/).
+Run `Visual Studio ToDo WebApi` to execute the end-to-end tests via [Postman](https://documenter.getpostman.com/view/27682287/2s93shzpGE/).
 
 ## Further help
 
