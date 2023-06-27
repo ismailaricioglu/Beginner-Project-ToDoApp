@@ -24,7 +24,7 @@ namespace Presentation.Controllers
         [HttpGet(Name = "GetRoot")]
         public async Task<IActionResult> GetRoot([FromHeader(Name = "Accept")] string mediaType)
         {
-            if (mediaType.Contains("application/vnd.btkakademi.apiroot"))
+            if (mediaType.Contains("application/vnd.todo.apiroot"))
             {
                 var list = new List<Link>()
                 {

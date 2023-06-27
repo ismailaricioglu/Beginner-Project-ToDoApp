@@ -207,25 +207,25 @@ namespace WebApi.Migrations
                 columns: new[] { "CategoryId", "CategoryName" },
                 values: new object[,]
                 {
-                    { 1, "Yapılacakların 1. Categorisi" },
-                    { 2, "Yapılacakların 2. Categorisi" },
-                    { 3, "Yapılacakların 3. Categorisi" }
+                    { 1, "Yapılacakların 1. Kategorisi" },
+                    { 2, "Yapılacakların 2. Kategorisi" },
+                    { 3, "Yapılacakların 3. Kategorisi" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Books",
                 columns: new[] { "Id", "CategoryId", "DateTime", "Text" },
-                values: new object[] { 1, 1, new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1967), "1 nolu categorinin 1. yapılacak işi" });
+                values: new object[] { 1, 1, new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1967), "1 nolu kategorinin 1. yapılacak işi" });
 
             migrationBuilder.InsertData(
                 table: "Books",
                 columns: new[] { "Id", "CategoryId", "DateTime", "Text" },
-                values: new object[] { 2, 2, new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1969), "2 nolu categorinin 1. yapılacak işi" });
+                values: new object[] { 2, 2, new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1969), "2 nolu kategorinin 1. yapılacak işi" });
 
             migrationBuilder.InsertData(
                 table: "Books",
                 columns: new[] { "Id", "CategoryId", "DateTime", "Text" },
-                values: new object[] { 3, 1, new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1971), "1 nolu categorinin 2. yapılacak işi" });
+                values: new object[] { 3, 1, new DateTime(2023, 6, 15, 20, 2, 7, 222, DateTimeKind.Utc).AddTicks(1971), "1 nolu kategorinin 2. yapılacak işi" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
