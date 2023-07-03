@@ -14,6 +14,33 @@ Open VS (Visual Studio) 2022, create a `repository clone` using the link of this
 
 This project was built with [Swagger swashbuckle.aspnetcore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) version 6.2.3.
 
+## Working APIs;
+
+### Authentication
+
+POST: Registration, Authenticate, Refresh
+
+### Chapter (All Categories:AC)(One Category:OC)
+
+GET: AC, OC, OC with Invalid Id
+
+### Tasks (All Books:AB)(One Book:OB)
+
+GET: 
+AB, AB with Pagination, AB with Details, AB with Filtering, AB with Search, AB with Order, AB with Data Shaping, AB with Links, OB, AB with Invalid Id
+
+POST: OB, OB with Invalid Object
+
+HEAD: Head
+
+OPT: Options
+
+DEL: OB
+
+PUT: OB, OB with Invalid Object
+
+PATCH: OB DateTime, OB with Invalid Object
+
 ## Development server
 
 Run `Visual Studio 2022` for a dev server. Navigate to `https://localhost:7077/swagger/index.html`.
