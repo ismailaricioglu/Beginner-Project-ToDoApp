@@ -45,9 +45,6 @@ PATCH: OB DateTime, OB with Invalid Object
 
 Run `Visual Studio 2022` for a dev server. Navigate to `https://localhost:7077/swagger/index.html`.
 
-## Code scaffolding
-
-???
 
 ## Build
 
@@ -65,6 +62,3 @@ Run `Visual Studio ToDo WebApi` to execute the end-to-end tests via [Postman](ht
 
 To get more help on the Asp.NetCore Mvc use `Asp.NetCore Mvc help` or go check out the [.Net aspnetcore](https://github.com/dotnet/aspnetcore).
 
-# ToDo Server
-
-???
